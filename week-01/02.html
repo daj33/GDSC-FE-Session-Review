@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html 고급 태그</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h3>이미지 태그: img(닫는 태그가 없다)</h3>
+    <img
+      id="cat"
+      src="smile_cat.jpg"
+      alt="art 속성: 웃는 고양이(이미지를 출력할 수 없는 경우 출력되는 문자열)"
+      width="320"
+      height="200"
+    />
+    <hr />
+    <h3>목록 태그: ol/ul/dl & li</h3>
+    <!--type, start 속성 대신 CSS로 스타일 정의 가능-->
+    <h5>과제를 마주한 대학생의 행동요령</h5>
+    <ol>
+      <li>과제를 본다</li>
+      <li>절망한다</li>
+      <li>딴짓한다</li>
+    </ol>
+    <h5>최근에 마신 이화카페 메뉴</h5>
+    <ul>
+      <li>아이스티노</li>
+      <li>오미자에이드</li>
+      <li>생바나나라떼</li>
+    </ul>
+    <h5>용어와 그에 대한 설명</h5>
+    <dl>
+      <dt>반타이쏘이54</dt>
+      <dd>
+        서대문구 대현동에 위치한 태국 음식점으로 똠얌쌀국수가 맛도리였으나,
+        최근에 맛이 바뀌어 아쉽다.
+      </dd>
+    </dl>
+    <hr />
+    <h3>하이퍼링크(다른 html 페이지 연결) 태그: a</h3>
+    <ul>
+      <li>
+        <a href="01.html">클릭하면 01.html로 이동합니다.<br /></a>
+      </li>
+      <li>
+        <a href="https://www.google.co.kr/maps/?hl=ko" target="_blank">
+          <img src="google_map.png" />
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <h4>a태그를 사용해 문서의 특정 위치로 이동하기</h4>
+    <a href="#cat">고양이 사진 보기 ^0*0^</a>
+    <h4>a태그를 사용해 다운로드 하기</h4>
+    <a href="smile_cat.jpg" download>고양아 사진 다운받기^v*v^</a>
+    <hr />
+    <h3>표 태그, 인라인 프레임, 미디어 삽입은 나중에 공부하자</h3>
+  </body>
+</html>
